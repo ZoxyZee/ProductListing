@@ -15,17 +15,3 @@ class Debouncer {
     _timer?.cancel();
   }
 }
-
-/*
-Example usage inside a Flutter search TextField:
-
-final debouncer = Debouncer(delay: const Duration(milliseconds: 300));
-
-TextField(
-  onChanged: (value) {
-    debouncer.run(() {
-      print('Search API call for: $value');
-    });
-  },
-)
-*/
