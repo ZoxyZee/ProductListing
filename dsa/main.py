@@ -1,3 +1,5 @@
+#length of longest substring without repeating characters
+
 def lengthOfLongestSubstring(s: str) -> int:
     char_set = set()
     left = 0
